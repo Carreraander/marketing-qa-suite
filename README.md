@@ -10,6 +10,13 @@ BASE_URL=https://example.com npx playwright test
 npx playwright show-report
 ```
 
+## Sample report
+
+[`sample-report/`](sample-report/) is a real pass this suite produced against a live marketing site,
+with the captures behind each finding. Four defects, each reproduced on separate runs before being
+written down — including one that a whole-page screenshot cannot show and that the usual overflow check
+cannot detect.
+
 ## What it checks
 
 | Spec | What it catches |
