@@ -1,0 +1,14 @@
+{
+  "name": "marketing-qa-suite",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Re-runnable regression suite for marketing websites: responsive integrity, console health, metadata, links and baseline accessibility.",
+  "scripts": {
+    "test": "playwright test",
+    "report": "playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.62.0",
+    "typescript": "^5.6.0"
+  }
+}
